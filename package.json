@@ -1,0 +1,21 @@
+{
+  "name": "amapi",
+  "version": "1.0.0",
+  "description": "Android Market API",
+  "main": "index.js",
+  "repository": "https://github.com/rsommerard/amapi",
+  "author": "Romain SOMMERARD",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "lint": "standard --fix index.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
